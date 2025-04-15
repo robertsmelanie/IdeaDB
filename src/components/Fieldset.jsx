@@ -133,7 +133,7 @@ const Fieldset = () => (
     <input type="checkbox" id="jobBoard" name="categories" defaultValue="JobBoard" />
     <label htmlFor="jobBoard">Job Board</label>
   </div>
-  {'{'}/* Test */{'}'}
+  
   <div>
     <input type="checkbox" id="MatchingPlatform" name="categories" defaultValue="MatchingPlatform" />
     <label htmlFor="MatchingPlatform">Matching Platform</label>

@@ -4,12 +4,12 @@ import About from './pages/About';
 import Ideaform from './components/ideaform.jsx';
 
 
-import MainLayout from './layout/MainLayout';
+// import MainLayout from './layout/MainLayout';
 
 export default function App() {
   return (
     <BrowserRouter>
-      <MainLayout>
+      {/* <MainLayout> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -18,7 +18,7 @@ export default function App() {
           <Route path="*" element={<div>404 Not Found</div>} />
           {/* Catch-all route for undefined paths */}
         </Routes>
-      </MainLayout>
+      {/* </MainLayout> */}
     </BrowserRouter>
   );
 }
