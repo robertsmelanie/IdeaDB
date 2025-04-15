@@ -1,5 +1,7 @@
 import React from 'react';
 
+const Fieldset = () => (
+
 
 <fieldset>
   <legend>Choose Categories:</legend> 
@@ -193,7 +195,7 @@ import React from 'react';
         <label htmlFor="DigitalSimulationsGames">Digital Simulations / Games</label>
     </div>
 </fieldset>
-
+)
 export default Fieldset;
 
     
