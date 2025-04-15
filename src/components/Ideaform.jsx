@@ -17,18 +17,18 @@ const Ideaform = () => {
           
 
           <Market />
-          
-      {/* <label htmlFor="market" name="market" multiple />
-      <select name="market" id="market">
-        <option value="small">Small</option>
-        <option value="smallmedium">Small to Medium</option>
-        <option value="medium">Medium</option>
-        <option value="mediumlarge">Medium to Large</option>
-        <option value="large">Large</option>
-      </select> */}
+
+     
       <div className="catlist">
         <Fieldset />
-      </div>
+          </div>
+          
+          <label htmlFor="complexity" name="complexity" multiple />
+          <select name="complexity" id="complexity">
+              <option value="low">Low</option>
+              <option value="medium">Medium</option>
+              <option value="high">High</option>
+          </select>
       <input type="text" id="test" />
       {/* <input type=""> */}
       <button type="submit">Add Task</button>
